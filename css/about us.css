@@ -1,0 +1,181 @@
+@charset "utf-8";
+/*character encoding*/
+
+/*for h1 heading*/
+h1{
+	font-size:100px;  /*font size*/
+	letter-spacing:3px;   /*space between each letter*/
+	color:white; /*white color*/
+}
+
+a.link{
+	text-decoration:none; /*no underline*/
+	margin-right:10px; /*margin right*/
+	color:white;  /*color white*/
+}
+
+a.link:hover{
+	color:#65d875;  /*color*/
+}
+
+/*for about us /me*/
+.c-about{
+	position: absolute;  /*position absolute*/
+	color: black; /*color*/
+	top: 500px;  /*top*/
+	left: 608px;  /*left*/
+	text-align:center;  /*align at centre*/
+	font-size:30px;  /*font size*/
+	font-family:Copperplate Gothic Light,CSS;  /*font family set accordingly*/
+}
+
+/*css for class box*/
+.box{
+	padding:0 0 30px 80px;  /*padding*/
+	margin-top:20px;  /*top margin*/
+	line-height:20px;  /*height of line*/
+	font-size:18px;  /*font size*/
+}
+
+/*for area class*/
+.area{
+	width:550px;  /*width*/
+	float:left;
+	margin-right:75px;  /*right margin*/
+}
+
+.box:after {
+	content: "";
+	display: flex;
+	clear: both;
+}
+
+.about-text{
+	margin-top:85px;  /*top margin*/
+	margin-bottom:50px;  /*bottom margin*/
+	font-family: Arial Rounded MT Bold,CSS;  /*font family set accordingly*/
+	color:#4f4949;  /*color*/
+}
+
+.what-we-do{
+	margin-bottom:20px;  /*margin bottom*/
+}
+
+.what-we-do:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.photo{
+	float:left;  /*set at left*/
+}
+
+.text{
+	float:left;  /*set at left*/
+	background:#333333;  /*background color*/
+	padding:79px 0 0 59px;  /*padding*/
+}
+
+.aa{
+	height:500px;  /*height dimension*/
+	width:670px;  /*width*/
+}
+
+/*for class top*/
+.top{
+	font-size:35px;  /*font size*/
+	font-family:Copperplate Gothic Light,CSS;  /*font family set accordingly*/
+	color:white;  /*white color of text*/
+	margin-bottom:50px;  /*bottom margin*/
+}
+
+.first{
+	margin-right:30px;  /*right margin*/
+	line-height: 10px;  /*height of line*/
+	font-family: Arial Rounded MT Bold,CSS;  /*font family set accordingly*/
+	margin-bottom:50px;  /*bottom margin*/
+}
+
+/*for image text*/
+.icon-text{
+	margin-bottom: 30px;  /*bottom margin*/
+	float: left;  /*set at left*/
+}
+
+.icon-text h3{
+	font-size: 28px;  /*font size*/
+	color: white;  /*color of text*/
+}
+
+.icon-text p{
+	font-size:15px;  /*font size*/
+	color:#4f4949;  /*text color*/
+}
+
+hr{
+	color: #65d875;  /*color*/
+	margin-top:100px;  /*margin from top*/
+}
+
+/*for class regard*/
+.regard{
+	text-align:center;  /*align to centre*/
+	font-family:Copperplate Gothic Light,CSS;   /*font family set accordingly*/
+	font-size:30px;  /*font size*/
+	margin-top:100px;  /*top margin*/
+}
+
+.round{
+	width:100px;  /*width*/
+	height:100px;  /*height*/
+	float:left;  /*set at left*/
+	border-radius:400px;  /*radius of border*/
+	border:1px solid #65d875;  /*border*/
+	padding:6px;  /*padding*/
+	margin-top:20px;  /*margin from top*/
+}
+
+/*css for text with regards from image*/
+.round-text{
+	float:left;
+	margin-left:30px;  /*left margin*/
+	width:345px;  /*width*/
+}
+
+/*css for class row*/
+.row{
+	float:left;  /*left*/
+	margin-left:110px;  /*left margin*/
+	font-family: Arial "Rounded MT" Bold; /*font family set accordingly*/
+}
+
+/*for box1*/
+.box1{
+	margin-top:100px;  /*margin top*/
+	margin-bottom:100px;  /*margin bottom*/
+}
+
+.box1:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+/*for h3*/
+.round-text h3{
+	font-size:25px; /*font size*/
+	line-height:10px; /*height of line*/
+}
+
+/*para text color*/
+.round-text p{
+	color:#4f4949;
+}
+
+/*h3 heading*/
+h3.underline{
+	text-decoration:underline 3px #65d875;
+}
+
+

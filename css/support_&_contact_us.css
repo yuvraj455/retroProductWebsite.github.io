@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*charcter encoding*/
+
+/*css for first level heading*/
+h1{
+	margin-top:20px;  /*top margin*/
+	font-size:100px; /*font size*/
+	letter-spacing:3px;  /*space between each letter*/
+	color:white; /*text color*/
+	font-family:Arial "Rounded MT" Bold;  /*font family set accordingly*/
+}
+
+/*for links inside roww*/
+.roww a:link{
+	text-decoration: none;  /*no underlines*/
+	color: black;  /*black link color*/
+	font-size: 18px; /*font size*/
+}
+
+/*when link is once visited*/
+.roww a:visited{
+	color: orangered; /*color*/
+}
+
+/*when hovered over the link*/
+.roww a:hover{
+	color: black; /*color black*/
+	background-color: white;  /*background white*/
+}
+
+/*when focussed over using tab button*/
+.roww a:focus{
+	color: orange;  /*orange color*/
+	background-color: grey;  /*background grey*/
+}
+
+
+/*h1*/
+h1.contact-head {
+	color:black;  /*black color*/
+	font-size:25px;  /*font size*/
+	margin-bottom:50px;  /*bottom margin*/
+}
+
+/*for h1 directly in roww*/
+.roww >h1{
+	text-align: center;  /*set at centre*/
+	position: relative; /*position set to relative*/
+	padding: 0; /*padding*/
+	margin-bottom: 0;  /*bottom margin*/
+	color: black;  /*black color*/
+}
+
+/*for class column*/
+.column {
+	background:#f3f3f3;  /*background color*/
+	float: left;  /*set at left side*/
+	padding: 29px 32px 71px 109.8px;  /*paddingset*/
+	height: 250px;  /*height*/
+	font-family:Arial "Rounded MT" Bold;  /*font family set accordingly*/
+	color:grey; /*text color grey*/
+}
+
+.roww:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.roww{
+	margin-bottom:100px;  /*bottom margin*/
+}
+
+/*for second level heading*/
+h2{
+	font-size:33px;  /*font size*/
+	color:#333333;  /*color*/
+}
+
+a.mail{
+	color:grey;
+	font-family:none;
+}
+
+a.mail:hover{
+	color:#CCCCCC;
+}
+
+/*css for form inputs*/
+input.info[type=text], 
+input.info[type=email],
+input.info[type=number]{
+  width: 24%;  /*width*/
+  padding: 12px 20px;  /*padding set*/
+  margin: 15px 13px;  /*margin set*/
+  box-sizing: border-box;  /*box sizing*/
+  border: 3px solid #ccc;  /*border*/
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  color:grey;
+  left:float;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+/*css for tet area*/
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  resize: none;
+  margin-top:30px;
+}
+
+/*css for send button*/
+.send {
+	background-color:#65d875;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-right:435px;
+	margin-bottom:100px;
+	cursor: pointer;
+}
+
+/*when hovered over the button*/
+.send:hover{ 
+	background:#333333;  /*background color*/
+}
+
+.align{
+	text-align: center;
+}
+

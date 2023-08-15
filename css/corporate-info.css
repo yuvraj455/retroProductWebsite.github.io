@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*character encoding*/
+
+/*css for body backgroung color*/
+body{
+	background-color: white;
+}
+
+/*for section class all*/
+.all{
+	align-content: center;  /*set at centre*/
+	padding: 0; /*zero padding*/
+	margin-top: 0;  /*zero margin from top*/
+}
+
+/*for h3 headings which are aligned to center*/
+.hhead{
+	text-align: center;  /*set at centre*/
+	font-size: 50px;  /*font size*/
+	color: black;  /*black text color*/
+	font-weight: bold;  /*text is bold*/
+}
+
+/*for the para under who we are*/
+.me-middle{
+	text-align: center;  /*set at center*/
+	font-size: 18px;  /*font size*/
+	font-style: oblique;  /*font style*/
+	font-family: Arial, Helvetica, sans-serif;  /*font family set accordingly*/
+	margin-left: 50px; /*left margin*/
+	margin-right: 50px; /*right margin*/
+}
+
+/*for image text under leadership*/
+.img-text {
+	display: inline-block;
+	width: 31%; /* Adjust the width to fit the desired layout */
+	text-align: center;
+	margin: 10px; /* Add some spacing between the image and the text */
+  }

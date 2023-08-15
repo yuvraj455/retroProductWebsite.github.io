@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*character encoding*/
+
+/*background color for body*/
+body{
+	background-color: white;
+}
+
+/*css for first level heading*/
+h1{
+	font-size:100px;  /*font size*/
+	letter-spacing:3px;  /*space between each letter*/
+	color:white;  /*text color*/
+}
+
+/*for heading our products*/
+h1.service{
+	font-size:25px;   /*font size*/
+	font-family:Arial "Rounded MT" Bold;  /*font family set accordingly*/
+	color:grey;  /*color grey*/
+	text-align:center;  /*align centre*/
+	margin-top:90px;  /*top margin*/
+	margin-bottom:50px;  /*bottom margin*/
+}
+
+/*for col1*/
+.col-1{
+	float:left;
+}
+
+/*for col3*/
+.col-3{
+	float: right;
+}
+
+/*for col4*/
+.col-4{
+	float: right;
+	width: 350px; /*width*/
+	font-size: 20px; /*font size*/
+	margin-top: -15px; /*top margin*/
+	font-family: Arial, Helvetica, sans-serif;  /*font family set acordingly*/
+	color: grey;  /*color grey*/
+}
+
+/*for col2*/
+.col-2{
+	float:left;
+	width:350px; /*width*/
+	font-size:20px; /*font size*/
+	margin-top:-15px; /*top margin*/
+	font-family:Arial "Rounded MT" Bold;  /*font family set accordingly*/
+	color:grey;  /*color grey*/
+}
+
+.start-it{
+	margin-bottom:0px;
+}
+
+.start-it:after{
+	display:table;
+	clear:both;
+	content:"";
+}
+
+/*for image*/
+img.ser-img{
+	width:300px;  /*width of image*/
+	height:300px; /*height of image*/
+	margin-right:30px; /*right margin*/
+}
+
+/*for first three images margin*/
+.full{
+	margin-left:50px;
+}
+
+/*margin for last three images*/
+.right{
+	margin-right: 50px;
+}
+

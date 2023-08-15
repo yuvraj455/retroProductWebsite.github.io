@@ -1,0 +1,141 @@
+@charset "utf-8";  /*character encoding*/
+
+/*for body*/
+body{
+	background:white;	/*background color*/
+}
+
+/*for header image*/
+.header-image{
+	background-image:url("../images/back.png");  /*image path*/
+	background-position: top; /*position of image*/
+	height:500px;  /*height*/
+	background-size: cover;	/* fills the background*/
+}
+
+/*for phone and email in the header image*/
+.header-image .start{
+	font-size:20px; /*font size*/
+	color:black;	/*text color*/
+	margin-left:90px; /*margin from left*/
+	font-weight:bold;  /*makes the text bold*/
+	font-family:Arial "Rounded MT" Bold;  /*font family set accordingly*/
+}
+
+.start a{
+	margin-left:20px;  /*sets margin for the anchor tag in header image in start*/
+}
+
+/*css for logo*/
+.logo p{
+	color:white;  /*color set to white*/
+	font-weight:bold;  /*font is made bold*/
+	border:0.1em solid white;	 /*border details with color*/
+	background:none;  /*background*/
+	float:left;  /*adjusted to left side*/
+	position:relative;  /*position set to relative*/
+	top:-20px;  /*top position/margin*/
+	margin-left:90px;  /*left margin*/
+	padding:2px 40px;  /*padding*/
+	font-size:50px;  /*font size*/
+	transform:scale(1,0.8);
+}
+
+/*for global navigation elements*/
+header .top-nav ul{
+	background:none; /*background*/
+	margin-top:55px; /*top margin*/
+	margin-left:400px; /*left margin*/
+	list-style-type: none; /*no list style*/
+	font-family:Arial "Rounded MT" Bold; /*font family set accordingly*/
+}
+ 
+header .top-nav li{
+	display: inline-block;  /*displayed in a single line horizontally*/
+}
+
+header .top-nav a{
+	font-weight:bold; /*font is made bold*/
+	color:black; /*color black*/
+	margin-left:5px;  /*left margin*/
+	margin-right:0px;  /*right margin*/
+	text-decoration:none; /*no text decoration like underline*/
+	font-size:18px; /*size of the font*/
+	padding:0 16px; /*padding*/
+	display: block;  /*display block*/
+}
+
+/*when hovered over the elements*/
+header .top-nav a:hover{
+	background:white; /*white background*/
+	color:red; /*color red*/
+}
+
+/*css for other text in the image in the top*/
+.header-image .imagetext{
+	font-size:15px;  /*font size*/
+	color:white;  /*white color*/
+	text-align:center; /*set at centre*/
+	line-height:25px;  /*height of line*/
+	margin-top:165px;  /*top margin*/
+}
+
+/*for the word "FAX" written exactly above deliver your messages*/
+.imagetext p{
+	font-size: 50px; /*font size*/
+	letter-spacing:4px;  /*Space between each letter*/
+}
+
+/*for the word "Deliver your messages"*/
+.imagetext h1{
+	font-size:65px; /*font size*/
+	letter-spacing:3px; /*space between each letter*/
+}
+
+/*css for the buttons read more and contact us*/
+.imagetext button{
+	background:#5b5b5b; /*background color*/
+	color:white; /*color white*/
+	padding:10px 25px; /*padding*/
+	border-radius:5px; /*radius of border*/
+	border:none; /*no border*/
+	cursor:pointer;  /*control cursor appearance*/
+	font-size:20px;   /*font-size*/
+}
+
+button.active1{
+	background:#65d875; /*color*/
+}
+
+button a{
+	text-decoration: none; /*no underline on links*/
+}
+
+/*css for link button*/
+button a:link{
+	color: white; /*white color*/
+}
+
+button a:visited{
+	color: white;  /*white color for visited links*/
+}
+
+.imagetext button:hover{
+	background:#65d875; /*color when hovered over*/
+}
+
+/*css for footer*/
+footer{
+	background-image: url("../images/back.png");  /*image path*/
+	background-size: cover; /*covers the full*/
+	width: 100%; /*width set*/
+    height: 360px;    /*height*/
+    background-size: 100% 100%;
+    text-align: center;  /*aligned to centre*/
+	font-family:Arial "Rounded MT";  /*font family set accordingly*/
+}
+
+
+* {
+  box-sizing: content-box; /*sets width and height*/
+}

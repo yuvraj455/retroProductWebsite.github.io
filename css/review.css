@@ -1,0 +1,114 @@
+@charset "utf-8";
+/*character encoding*/
+
+/*for first level heading*/
+h1{
+	font-size:100px;  /*font size*/
+	letter-spacing:3px;  /*space between ach letter*/
+	color:white;  /*text color*/
+}
+
+/*css for customer review section*/
+.customer-reviews {
+	background-color: #f9f9f9;  /*background color*/
+	padding: 40px 20px;  /*padding*/
+	display: grid;  /*grid display*/
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;  /*gap*/
+  }
+  
+  /*for h2 in section customer reviews*/
+  .customer-reviews h2 {
+	grid-column: 1 / -1;
+	text-align: center; /*align centre*/
+	font-size: 24px;  /*font size*/
+	margin-bottom: 30px;  /*bottom margin*/
+  }
+  
+  /*for the reviews*/
+  .review {
+	border: 1px solid #ddd;  /*border*/
+	border-radius: 5px;  /*radius of border*/
+	padding: 20px;  /*padding*/
+	margin-bottom: 20px;  /*bottom margin*/
+  }
+  
+  /*for para in review*/
+  .review p {
+	font-size: 18px; /*font size*/
+	line-height: 1.6; /*height of line*/
+	margin-bottom: 10px;  /*bottom margin*/
+  }
+  
+  .review p:last-child {
+	font-weight: bold;  /*makes the text bolded*/
+  }
+
+  /*css for feedback form*/
+.feedback-form {
+	max-width: 600px; /*maximum width*/
+	margin: 10px auto;  /*margin*/
+	padding: 20px;  /*padding*/
+	background-color: black; /*background color*/
+	border: 1px solid #ddd;  /*border*/
+	border-radius: 5px;  /*radius of border*/
+  }
+  
+  /*second level heading in the form*/
+  .feedback-form h2 {
+	text-align: center;  /*align centre*/
+	font-size: 24px;  /*font size*/
+	margin-bottom: 20px;  /*bottom margin*/
+	color: white;  /*text color white*/
+  }
+  
+  /*div in the form*/
+  .feedback-form form div {
+	margin-bottom: 15px;  /*bottom margin*/
+	color: white; /*white color*/
+  }
+ 
+/*label css */
+.feedback-form label {
+    font-size: 16px;  /*font size*/
+    display: block; /*block display*/
+    margin-bottom: 5px; /*botttom margin*/
+    color: white;  /*white color*/
+}
+
+/*css for name, phone number and email*/
+.feedback-form input[type="text"],
+.feedback-form input[type="number"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: 98%;  /*width*/
+    padding: 10px;  /*padding*/
+    font-size: 16px;  /*font size*/
+    border: 1px solid #ddd;  /*border*/
+    border-radius: 5px;  /*radius of border*/
+}
+
+/*css for textarea where feedback will be written*/
+.feedback-form textarea {
+    resize: vertical;
+}
+
+/*css for button*/
+.feedback-form button[type="submit"] {
+    display: block;  /*block display*/
+    width: 98%;  /*width*/
+    padding: 10px;  /*padding*/
+    font-size: 16px;  /*font size*/
+    background-color: #333;  /*background color*/
+     color: #fff;  /*color*/
+    border: none;  
+    border-radius: 5px;  /*radius of border*/
+    cursor: pointer;  /*cursor appearance*/
+}
+
+/*css for button when hovered*/
+.feedback-form button[type="submit"]:hover {
+    background-color: #555;  /*background color*/
+}
+
+

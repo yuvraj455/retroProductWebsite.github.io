@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*charcter encoding*/
+
+/*css for container section*/
+.container{
+	background:#bbeab9;  /*background color*/  
+	position:absolute;  /*position aabsolute*/
+	padding:20px 29px; /*padding*/
+	top: 500px;  /*top margin*/
+}
+
+/*css for para class*/
+.container .para {
+	float:left; /*set at left*/
+	width:1271px;  /*width*/
+	border-top:2px solid black;  /*border top*/
+	border-bottom:2px solid black;  /*border bottom*/
+	color:#4f4949;  /*color*/  
+	font-family:Arial Rounded MT,CSS;  /*font family*/
+	background:#bbeab9;  /*background color*/ 
+	padding:10px 87.1px;  /*padding*/
+}
+
+/*h2 heading */
+.para > h2{
+	margin-left: 200px;  /*left margin*/
+}
+
+/*para2 class*/
+.para2{
+	position: absolute;  /*position absolute*/
+	top: 120px;  /*top*/
+	left: 560px;  /*left*/
+	float: right;  /*set at right*/
+}
+
+/*css for head class*/
+.head{
+	position: absolute;  /*position absolute*/
+	top: -80px;  /*top margin*/
+	left: 360px;	  /*left margin*/
+}
+
+/*h2 in container*/
+.container h2{
+	font-size:25px;   /*font size*/
+}
+
+.container p{
+	font-size:20px;  /*font size*/
+	font-family:Calibri Light,CSS; /*font family*/
+}
+
+
+.black{
+	height:400px;  /*height*/
+	background:#333333;  /*background color*/
+	position:relative;  /*position relative*/
+	margin-top: 450px;	/*top margin*/
+}
+
+.text{
+	color:white;  /*color*/
+	position:relative;  /*position relative*/
+	top:80px;  /*top*/
+	font-size:30px;  /*font size*/
+	text-align:center;  /*set at centre*/
+}
+
+.white{
+	margin-top:135px;  /*top margin*/
+	margin-left:130px;  /*left margin*/
+}
+
+.blog{
+	width:220px;  /*width*/
+	float:left;  /*set at left*/
+	color:black;  /*color*/
+	padding:0 15px 40px 30px;  /*padding*/
+	font-family:Arial Rounded MT Bold,CSS;  /*font family set accordingly*/
+	line-height:25px; /*height of line*/
+	background:white;  /*background color*/
+	border-right:190px solid #333333;  /*border right*/
+}
+
+.blog p{
+	transform:translate(1px,10px);
+	font-family:Segoe UI,SANS-SERIF;  /*font family*/
+}
+
+/*for h5*/
+.blog h5{
+	border-top: 0.3px solid black;
+	transform:translate(3px,15px);
+}
+
+
